@@ -6,14 +6,14 @@ This is the frontend web application for the Insyd Notification System, built wi
 
 ## 🚀 Live Demo
 
-- **Frontend**: https://notification-poc-web.vercel.app/
-- **Backend API**: https://notification-api-production-96c4.up.railway.app/
+- **Frontend**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
+- **Backend API**: https://api-production-3aea.up.railway.app/
 - **Demo Controls**: Built-in buttons for testing all notification types
 
 ## 🎯 Quick Demo Guide
 
 ### 5-Minute Demo Workflow
-1. **Visit**: https://notification-poc-web.vercel.app/
+1. **Visit**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
 2. **Test Demo Controls**: Click the colorful notification buttons
 3. **Watch Real-time**: Notifications appear instantly
 4. **Interact**: Click notifications to mark as read
@@ -86,11 +86,14 @@ npm run dev
 ### Environment Variables
 Create a `.env.local` file with:
 ```env
+# Local Development URLs
 NEXT_PUBLIC_API_URL=http://localhost:3001
 NEXT_PUBLIC_WS_URL=ws://localhost:3001
 ```
 
-For production, these are configured in `src/config/api.ts` to use the live URLs.
+**Note**: For production, these are configured in `src/config/api.ts` to use the live URLs:
+- API: `https://api-production-3aea.up.railway.app`
+- WebSocket: `wss://api-production-3aea.up.railway.app`
 
 ## ✨ Features
 
@@ -195,9 +198,13 @@ const socket = useNotificationSocket(userId);
 ### Environment Variables for Production
 Set in Vercel dashboard:
 ```env
-NEXT_PUBLIC_API_URL=https://notification-api-production-96c4.up.railway.app
-NEXT_PUBLIC_WS_URL=wss://notification-api-production-96c4.up.railway.app
+# These are automatically configured in production
+# See src/config/api.ts for hardcoded production URLs
+NEXT_PUBLIC_API_URL=https://api-production-3aea.up.railway.app
+NEXT_PUBLIC_WS_URL=wss://api-production-3aea.up.railway.app
 ```
+
+**Note**: The production deployment uses hardcoded URLs in the config file, so environment variables are optional for Vercel deployment.
 
 ### Build Configuration
 The app uses Next.js App Router with:
@@ -273,6 +280,12 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 🔗 Related
 
-- **Backend Repository**: [insyd-notification-backend](../insyd-notification-backend)
-- **Live Demo**: https://notification-poc-web.vercel.app/
-- **API Documentation**: https://notification-api-production-96c4.up.railway.app/health
+- **Backend Repository**: Backend API available separately  
+- **Live Demo**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
+- **Backend API**: https://api-production-3aea.up.railway.app/health
+
+## 📚 Additional Resources
+
+- **Vercel Deployment**: https://vercel.com/docs/concepts/deployments
+- **Next.js Documentation**: https://nextjs.org/docs
+- **Tailwind CSS**: https://tailwindcss.com/docs
