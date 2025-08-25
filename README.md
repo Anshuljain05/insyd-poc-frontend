@@ -13,7 +13,7 @@ This is the frontend web application for the Insyd Notification System, built wi
 ## 🎯 Quick Demo Guide
 
 ### 5-Minute Demo Workflow
-1. **Visit**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
+1. **Visit**: https://insyd-poc-frontend-nh4cpujbp-anshuljain05s-projects.vercel.app/
 2. **Test Demo Controls**: Click the colorful notification buttons
 3. **Watch Real-time**: Notifications appear instantly
 4. **Interact**: Click notifications to mark as read
