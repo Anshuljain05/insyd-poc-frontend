@@ -6,7 +6,7 @@ This is the frontend web application for the Insyd Notification System, built wi
 
 ## 🚀 Live Demo
 
-- **Frontend**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
+- **Frontend**: https://insyd-poc-frontend-nh4cpujbp-anshuljain05s-projects.vercel.app/
 - **Backend API**: https://api-production-3aea.up.railway.app/
 - **Demo Controls**: Built-in buttons for testing all notification types
 
@@ -281,7 +281,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🔗 Related
 
 - **Backend Repository**: Backend API available separately  
-- **Live Demo**: https://notification-frontend-5a262wn8p-anshuljain05s-projects.vercel.app/
+- **Live Demo**: https://insyd-poc-frontend-nh4cpujbp-anshuljain05s-projects.vercel.app/
 - **Backend API**: https://api-production-3aea.up.railway.app/health
 
 ## 📚 Additional Resources
